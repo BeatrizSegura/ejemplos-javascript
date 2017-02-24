@@ -15,7 +15,11 @@
     document.write('<table>')
     var lenguajes= ['HTML', 'CSS', 'JavaScript','PHP']
 
-    for(var i=0;i<lenguajes.length;i++)
+    imprimir(lenguajes)
+    
+    function imprimir(tabla)
+    {
+        for(var i=0;i<lenguajes.length;i++)
     {
         document.write('<tr>')
         document.write('<td style = "border: solid" >')
@@ -25,6 +29,7 @@
     }
 
      document.write('</table>')
+    }
     </script>
 </body>
 </html>
