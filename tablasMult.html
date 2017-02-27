@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas de Multiplicar</title>
+</head>
+<body>
+<script>
+    document.write('<table style = "border: "1">')
+
+    var arrMult= new Array()
+    var numero= window.prompt("Dame el tamaño de la tabla: ")
+
+     crearTabla(numero)
+
+    function crearTabla(numero)
+    {
+        for(var i=0; i<numero; i++)
+        {
+            arrMult[i]=new Array(numero)
+            document.write('<tr>')
+            document.write('<td>')
+            document.write(arrMult[i][0])
+            document.write('</td>')
+            for(var j=0; j<numero; j++)
+            {  
+                arrMult[i][j]=i+1;
+                
+                document.write('<td>')
+                document.write(arrMult[i][j]=i+1*numero)
+                document.write('</td>')
+                document.write('</tr>')
+            }
+        }
+    }
+    document.write('</table>')
+</script>
+</body>
+</html>
