@@ -1,0 +1,24 @@
+div{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 112px;
+    height: 40px;
+    background-color: antiquewhite;
+}
+table{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 80px;
+    height: 190px;
+    background-color: darksalmon;
+}
+p{
+    text-align: right;
+    font-family: Arial;
+}
+
+#siete, #nueve, #cinco, #menos, #uno, #tres, #cero, #entre, #izq{
+    background-color: pink;
+}
